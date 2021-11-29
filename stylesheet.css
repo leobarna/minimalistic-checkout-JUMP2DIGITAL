@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin:0;
+}
+body{
+    font-family: Roboto, serif;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 327px;
+    align-items: center;
+}
+.previous-btn{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    min-width: 169px;
+    margin-top: 80px;
+}
+.vector{
+    height: 15px;
+    margin-top: 0;
+    width: 16px;
+}
+.text-btn{
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-left: 6px;
+    min-width: 20px;
+    white-space: nowrap;
+    width: 145px;
+}
+.product-view{
+    height: 100px;
+    width: 176px;
+    object-fit: cover;
+
+}
+img.product-view {
+    display: flex;
+    justify-content: center;
+}
+.product {
+    margin-top: 100px;
+}
+.product-details {
+    display: flex;
+    flex-direction: column;
+    height: 76px;
+    width: 163px;
+    margin-top: 21px;
+}
+.product-name {
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    width:77px;
+}
+.product-price {
+    display: flex;
+    margin-top: 8px;
+    width: 163px;
+}
+.price {
+    height: 44px;
+    letter-spacing: -0.72px;
+    line-height: 44px;
+    white-space:nowrap;
+    width:21px;
+}
+form.payment-forms {
+    width: 100%;
+}
+.email-field, .card-field, .owner-field, .country {
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+}
+.card-details {
+    display: flex;
+    flex-direction: row;
+}
+button.apple-btn,button.card-btn {
+    width: 100%;
+    margin-top: 30px;
+}
+label.pay-details,label.email-field,label.card-details,label.name,label.country {
+    margin-bottom: 10px;
+}
