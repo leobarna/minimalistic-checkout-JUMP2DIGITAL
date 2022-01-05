@@ -22,45 +22,42 @@
     <div class="product-details">
         <div class="product-name">New Mac</div>
         <div class="product-price">
-            <h1>&#36;899.00</h1>
+            <h1>$899.00</h1>
         </div>
     </div></div>
 
-    <button class="apple-btn">Apple</button>
+    <button class="apple-btn"><img src="apple-pay.png" alt="apple pay button" class="img-apple"></button>
     <div class="alternative">
-        <div class="line"></div>
-        <div class="card-method"></div>
-        <div class="line-second"></div>
+        <h2 class="card-method">or pay with card</h2>
     </div>
     <form action="" class="payment-forms">
         <div class="email-field">
             <label for="email" class="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Insert your email" required>
+            <input type="text" id="email" name="email" placeholder="Insert your email" required="">
         </div>
         <div class="card-field">
             <label for="payment" class="pay-details">Payment details</label>
-            <input type="text" id="payment" class="card-number" placeholder="1234 1234 1234 1234" required>
+            <input type="text" id="payment" class="card-number" placeholder="1234 1234 1234 1234" required="">
             <div class="card-details">
-                <input type="text" class="expired" placeholder="MM/YY" required>
-                <input type="text" class="cvc-code" placeholder="CVC" required>
+                <input type="text" class="expired" placeholder="MM/YY" required="">
+                <input type="text" class="cvc-code" placeholder="CVC" required="">
             </div>
         </div>
         <div class="owner-field">
             <label for="name" class="name">Name on card</label>
-            <input type="text" id="name" name="name" placeholder="Insert your full card's name" required>
+            <input type="text" id="name" name="name" placeholder="Insert your full card's name" required="">
         </div>
         <div class="country">
             <label for="country" class="name">Country</label>
             <select name="country" id="country" class="form-select">
-                <option selected>Spain</option>
+                <option selected="">Spain</option>
                 <option value="1">Guinea Equatorial</option>
                 <option value="2">Cameroon</option>
             </select>
-            <input type="text" id="zip" name="zip code" placeholder="ZIP" required>
+            <input type="text" id="zip" name="zip code" placeholder="ZIP" required="">
         </div>
     </form>
-    <button class="card-btn">Pay &#36;899.00</button>
-
+    <button class="card-btn">Pay $899.00</button>
 </div>
 </body>
 </html>
